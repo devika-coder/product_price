@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sellers Admin Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sellers Admin Page</h1>
+    <div>
+        <label for="">Selling Price</label>
+      <input type="number" id="sellingPrice" placeholder="Selling Price">
+      <label for="">Product Name</label>
+      <input type="text" id="productName" placeholder="Product Name">
+      <label for="">Choose a category</label>
+      <select id="category">
+        <option value="Electronics">Electronics</option>
+        <option value="Food">Food Items</option>
+        <option value="Skincare">Skin Care Items</option>
+      </select>
+      <button onclick="addProduct()">Add Product</button>
+    </div>
+    <div class="sections">
+      <div class="section" id="electronicsSection">
+        <h2>Electronic Items</h2>
+      </div>
+      <div class="section" id="foodSection">
+        <h2>Food Items</h2>
+      </div>
+      <div class="section" id="skincareSection">
+        <h2>Skin Care Items</h2>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
